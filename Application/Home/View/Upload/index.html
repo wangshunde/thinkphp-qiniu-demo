@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>图片</title>
+
+<script type="text/javascript" src="__ROOT__/Public/Admin/assets/js/jquery-1.8.1.min.js"></script>
+</head>
+<body>
+<table width="60%" border="1" align="center" cellpadding="6" cellspacing="0" style="border-collapse: collapse;text-align:center;" bgColor="#9DD9FF" border="0">
+
+  <tr style="text-align:center;">
+    <td width='20%'>图片</td>
+    <td width="20%">外链</td>
+
+  </tr>
+
+  <volist name="info" id="v">
+  <tr>
+    <td><img src="{$v.photo}" style="width:30%";></td>
+  	<td>{$v.photo}</td>
+
+   </tr>
+
+  </volist>
+
+</table>
+
+<div style="margin-top:20px;text-align:center;">{$page}</div>
+
+
+
+</body>
+
+</html>
+
